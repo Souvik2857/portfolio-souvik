@@ -1,0 +1,71 @@
+@media screen and (max-width:970px) {
+    .about-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .college {
+        width: 450px;
+        height: 350px;
+    }
+
+    .school {
+        width: 450px;
+        height: 350px;
+    }
+
+    .about-me-image img {
+        width: 400px;
+        height: 400px;
+        margin-left: 0px;
+    }
+
+    .project {
+        height: 300px;
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width:850px) {
+    .education {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .college {
+        width: 450px;
+        height: 350px;
+    }
+
+    .school {
+        width: 450px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .skills-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .projects-summary {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    .project{
+        height: 320px;
+        width: 250px;
+    }
+    .project-links{
+        position: absolute;
+        top: 77%;
+        left: 20%;
+    }
+    
+}
