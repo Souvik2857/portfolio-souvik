@@ -194,6 +194,7 @@ html {
     font-family: var(--primary-font);
     font-weight: 800;
     z-index: 1;
+    text-wrap: nowrap;
 }
 .link-sidebar::after{
     content: '';
