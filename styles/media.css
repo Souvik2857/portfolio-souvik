@@ -1,4 +1,4 @@
-@media screen and (max-width:970px) {
+@media screen and (max-width:980px) {
     .about-content {
         display: flex;
         flex-direction: column;
@@ -22,11 +22,25 @@
         margin-left: 0px;
     }
 
-    .project {
-        height: 300px;
-        width: 300px;
+    .contact {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
     }
 
+    .my-contact-description {
+        font-family: var(--primary-font);
+        font-weight: 400;
+        width: 380px;
+        margin-bottom: 50px;
+    }
+    .nav-items,.button{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+    }
 }
 
 @media screen and (max-width:850px) {
@@ -58,14 +72,10 @@
         justify-content: center;
         gap: 50px;
     }
-    .project{
-        height: 320px;
-        width: 250px;
-    }
-    .project-links{
+
+    .project-links {
         position: absolute;
         top: 77%;
         left: 20%;
     }
-    
 }
