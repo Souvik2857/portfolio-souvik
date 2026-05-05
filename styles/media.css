@@ -50,16 +50,31 @@
     }
 
     .college {
-        width: 450px;
-        height: 350px;
+        width: 400px;
+        height: 300px;
     }
 
     .school {
-        width: 450px;
+        width: 400px;
         height: 350px;
     }
+    .sidebar{
+        width: 40vw;
+        animation: menu-bar .5s 1 ease ;
+    }
+    @keyframes menu-bar {
+    from{
+        width: 0vw;
+    }
+    to{
+        width: 40vw;
+    }
 }
-
+}
+@media screen and(max-width:430px) {
+    
+    
+}
 @media screen and (max-width:768px) {
     .skills-container {
         display: grid;
