@@ -5,7 +5,36 @@
         justify-content: center;
         align-items: center;
     }
+.popup {
+        font-family: var(--primary-font);
+        color: black;
+        font-weight: 600;
+        position: fixed;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        left: 19%;
+        top: 33%;
+        background-color: white;
+        width: 263px;
+        height: 300px;
+        z-index: 1000;
+    }
+    .popup>h3 {
+        position: absolute;
+        top: 48%;
+        font-family: var(--primary-font);
 
+    }
+
+    .popup-description {
+        position: absolute;
+        top: 65%;
+        text-align: center;
+        font-size: 14px;
+        font-family: var(--primary-font);
+    }
     .college {
         width: 450px;
         height: 350px;
@@ -98,6 +127,38 @@
 }
 
 @media screen and (max-width:400px) {
+    .popup {
+        font-family: var(--primary-font);
+        color: black;
+        font-weight: 600;
+        position: fixed;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        left: 16%;
+        top: 33%;
+        background-color: white;
+        width: 250px;
+        height: 287px;
+        z-index: 1000;
+    }
+
+    .popup>h3 {
+        position: absolute;
+        top: 48%;
+        font-family: var(--primary-font);
+
+    }
+
+    .popup-description {
+        position: absolute;
+        top: 65%;
+        text-align: center;
+        font-size: 14px;
+        font-family: var(--primary-font);
+    }
+
     .about-me-image img {
         width: 320px;
         height: 320px;
@@ -128,6 +189,31 @@
 
     }
 
+    .project {
+        height: 300px;
+        width: 300px;
+        display: flex;
+        position: relative;
+        gap: 20px;
+        flex-direction: column;
+        margin: 0px 100px;
+        border: 1px solid grey;
+        border-radius: 10px;
+        box-shadow: 1px 5px 14px 0px;
+    }
+
+    .project-img {
+        width: 300px;
+    }
+
+    .project-discription {
+        width: 300px;
+        height: 200px;
+        padding: 0px 30px;
+        font-size: 13px;
+        font-family: var(--primary-font);
+    }
+
     .my-contact-description {
         display: flex;
         flex-direction: column;
@@ -142,13 +228,15 @@
         padding: 15px;
         transition: var(--transition);
     }
+
     .projects-summary {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 50px;
     }
-    .skills>p{
+
+    .skills>p {
         font-size: 14px;
     }
 
