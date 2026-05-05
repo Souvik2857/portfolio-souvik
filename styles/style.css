@@ -317,11 +317,9 @@ h3 {
 .about-me-image img {
     height: 480px;
     width: 480px;
-    margin-left: 50px;
 }
 
 .description {
-    width: 100vw;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -335,7 +333,10 @@ h3 {
 
 .about-content {
     margin-top: 50px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-content: center;
 }
 
 .first-about-box,
