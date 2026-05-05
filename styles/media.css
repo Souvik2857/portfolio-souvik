@@ -19,7 +19,6 @@
     .about-me-image img {
         width: 400px;
         height: 400px;
-        margin-left: 0px;
     }
 
     .contact {
@@ -35,10 +34,13 @@
         width: 380px;
         margin-bottom: 50px;
     }
-    .nav-items,.button{
+
+    .nav-items,
+    .button {
         display: none;
     }
-    .menu-bar{
+
+    .menu-bar {
         display: block;
     }
 }
@@ -58,23 +60,23 @@
         width: 400px;
         height: 350px;
     }
-    .sidebar{
+
+    .sidebar {
         width: 40vw;
-        animation: menu-bar .5s 1 ease ;
+        animation: menu-bar .5s 1 ease;
     }
+
     @keyframes menu-bar {
-    from{
-        width: 0vw;
+        from {
+            width: 0vw;
+        }
+
+        to {
+            width: 40vw;
+        }
     }
-    to{
-        width: 40vw;
-    }
 }
-}
-@media screen and(max-width:430px) {
-    
-    
-}
+
 @media screen and (max-width:768px) {
     .skills-container {
         display: grid;
@@ -92,5 +94,51 @@
         position: absolute;
         top: 77%;
         left: 27%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .about-me-image img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .first-about-box {
+        width: 350px;
+        height: 350px;
+    }
+
+    .focus {
+        width: 350px;
+        height: 350px;
+    }
+
+    .college,
+    .school {
+        width: 350px;
+        height: 350px;
+    }
+
+    .user-contact-info {
+        width: 350px;
+        height: 350px;
+
+    }
+    .my-contact-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 380px;
+        margin-bottom: 50px;
+    }
+    .my-contact-description>h2{
+        text-align: center;
+    }
+    .my-contact-description>p{
+        margin: 20px;
+        text-align: justify;
+    }
+    .email,.location{
+        margin: 20px;
     }
 }
