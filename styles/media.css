@@ -99,24 +99,27 @@
 
 @media screen and (max-width:400px) {
     .about-me-image img {
-        width: 350px;
-        height: 350px;
+        width: 320px;
+        height: 320px;
     }
 
     .first-about-box {
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
+        font-size: 13px;
     }
 
     .focus {
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
+        font-size: 13px;
     }
 
     .college,
     .school {
-        width: 350px;
-        height: 350px;
+        width: 300px;
+        height: 300px;
+        font-size: 13px;
     }
 
     .user-contact-info {
@@ -124,6 +127,7 @@
         height: 350px;
 
     }
+
     .my-contact-description {
         display: flex;
         flex-direction: column;
@@ -131,14 +135,34 @@
         width: 380px;
         margin-bottom: 50px;
     }
-    .my-contact-description>h2{
+
+    .skills {
+        height: 140px;
+        width: 100px;
+        padding: 15px;
+        transition: var(--transition);
+    }
+    .projects-summary {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    .skills>p{
+        font-size: 14px;
+    }
+
+    .my-contact-description>h2 {
         text-align: center;
     }
-    .my-contact-description>p{
+
+    .my-contact-description>p {
         margin: 20px;
         text-align: justify;
     }
-    .email,.location{
+
+    .email,
+    .location {
         margin: 20px;
     }
 }

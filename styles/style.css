@@ -352,7 +352,6 @@ h3 {
 
 .first-about-box:hover,
 .focus:hover {
-    width: 400px;
     border: 2px solid black;
     padding: 50px;
     border-radius: 20px;
