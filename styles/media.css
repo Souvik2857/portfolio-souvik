@@ -90,11 +90,11 @@
     }
 
     @keyframes menu-bar {
-        from {
+        0% {
             width: 0vw;
         }
 
-        to {
+        100% {
             width: 40vw;
         }
     }
