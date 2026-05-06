@@ -5,22 +5,16 @@
         justify-content: center;
         align-items: center;
     }
-.popup {
-        font-family: var(--primary-font);
-        color: black;
-        font-weight: 600;
-        position: fixed;
-        display: none;
-        justify-content: center;
-        align-items: center;
-        border: 2px solid black;
-        left: 19%;
+
+    .popup {
+        left: 32%;
         top: 33%;
         background-color: white;
-        width: 263px;
-        height: 300px;
+        width: 350px;
+        height: 400px;
         z-index: 1000;
     }
+
     .popup>h3 {
         position: absolute;
         top: 48%;
@@ -35,6 +29,7 @@
         font-size: 14px;
         font-family: var(--primary-font);
     }
+
     .college {
         width: 450px;
         height: 350px;
@@ -60,7 +55,6 @@
     .my-contact-description {
         font-family: var(--primary-font);
         font-weight: 400;
-        width: 380px;
         margin-bottom: 50px;
     }
 
@@ -107,6 +101,20 @@
 }
 
 @media screen and (max-width:768px) {
+    .popup {
+        left: 27%;
+        top: 33%;
+        background-color: white;
+        width: 350px;
+        height: 400px;
+        z-index: 1000;
+    }
+
+    .email,
+    .location {
+        margin: 20px;
+    }
+
     .skills-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -124,21 +132,83 @@
         top: 77%;
         left: 27%;
     }
+
+    .my-contact-description>h2 {
+        text-align: center;
+    }
+
+    .my-contact-description>p {
+        margin: 20px;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .popup {
+        left: 23%;
+        top: 33%;
+        background-color: white;
+        width: 300px;
+        height: 320px;
+        z-index: 1000;
+    }
+
+    .my-contact-description>h2 {
+        text-align: center;
+    }
+
+    .my-contact-description>p {
+        margin: 20px;
+        text-align: justify;
+    }
+
+    .email,
+    .location {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .my-contact-description>h2 {
+        text-align: center;
+    }
+
+    .email,
+    .location {
+        margin: 20px;
+    }
+
+    .popup {
+        left: 14%;
+        top: 33%;
+    }
+
+    .user-contact-info {
+        width: 300px;
+        height: 350px;
+
+    }
+
+    .user-contact-info>input {
+        width: 260px;
+        height: 50px;
+    }
+
+    textarea {
+        width: 260px;
+        height: 100px;
+    }
+
+    .my-contact-description>p {
+        margin: 20px;
+        text-align: justify;
+    }
 }
 
 @media screen and (max-width:400px) {
     .popup {
-        font-family: var(--primary-font);
-        color: black;
-        font-weight: 600;
-        position: fixed;
-        display: none;
-        justify-content: center;
-        align-items: center;
-        border: 2px solid black;
-        left: 16%;
+        left: 17%;
         top: 33%;
-        background-color: white;
         width: 250px;
         height: 287px;
         z-index: 1000;
@@ -157,6 +227,11 @@
         text-align: center;
         font-size: 14px;
         font-family: var(--primary-font);
+    }
+
+    .email,
+    .location {
+        margin: 20px;
     }
 
     .about-me-image img {
@@ -184,22 +259,24 @@
     }
 
     .user-contact-info {
-        width: 350px;
+        width: 300px;
         height: 350px;
 
+    }
+
+    .user-contact-info>input {
+        width: 260px;
+        height: 50px;
+    }
+
+    textarea {
+        width: 260px;
+        height: 100px;
     }
 
     .project {
         height: 300px;
         width: 300px;
-        display: flex;
-        position: relative;
-        gap: 20px;
-        flex-direction: column;
-        margin: 0px 100px;
-        border: 1px solid grey;
-        border-radius: 10px;
-        box-shadow: 1px 5px 14px 0px;
     }
 
     .project-img {
@@ -211,14 +288,12 @@
         height: 200px;
         padding: 0px 30px;
         font-size: 13px;
-        font-family: var(--primary-font);
     }
 
     .my-contact-description {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 380px;
         margin-bottom: 50px;
     }
 
