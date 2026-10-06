@@ -482,13 +482,13 @@ h3 {
     font-weight: 800;
 }
 
-.html {
+.Next-js {
     position: relative;
-    border-bottom: 2px solid rgb(245, 11, 11);
-    box-shadow: 0px 7px 17px 0px #df1717;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    box-shadow: 0px 7px 17px 0px #000000;
 }
 
-.html::after {
+.Next-js::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -499,9 +499,9 @@ h3 {
     transition: var(--transition);
 }
 
-.html:hover::after {
+.Next-js:hover::after {
     height: 100%;
-    background-color: rgb(255, 106, 0);
+    background-color: rgb(141, 139, 139);
     color: white;
 }
 
@@ -550,12 +550,12 @@ h3 {
     color: white;
 }
 
-.c {
+.mongoDB {
     position: relative;
-    box-shadow: 0px 7px 17px 0px #057dee;
+    box-shadow: 0px 7px 17px 0px #05ee79;
 }
 
-.c::after {
+.mongoDB::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -566,9 +566,9 @@ h3 {
     transition: var(--transition);
 }
 
-.c:hover::after {
+.mongoDB:hover::after {
     height: 100%;
-    background-color: #057dee;
+    background-color: #05ee37;
     color: white;
 }
 
